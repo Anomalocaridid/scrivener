@@ -1,0 +1,27 @@
+[package]
+name = "scrivener"
+version = "0.1.0"
+authors = ["Duncan Russell <DERPSQUID@protonmail.com>"]
+edition = "2018"
+description = "A Linux command line utility for taking notes."
+readme = "README.md"
+repository = "https://github.com/DERPSQUID9/scrivener/"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+confy = "0.4.0"
+structopt = "0.3.14"
+serde = {version = "1.0", features = ["derive"]}
+failure = "0.1.7"
+exitfailure = "0.5.1"
+scrawl = "1.1.0"
+prettytable-rs = "0.8.0"
+
+[dev-dependencies]
+tempfile = "3.1.0"
+
+[[bin]]
+name="scrv"
+path="src/main.rs"
