@@ -1,7 +1,18 @@
 # scrivener
 A Linux command-line utility for taking notes.
 
-## TODO: Installation
+## Installation
+From crates.io:  
+```
+cargo install scrivener
+```
+
+From source:
+```
+git clone https://github.com/DERPSQUID9/scrivener.git
+cd scrivener
+cargo build
+```
 
 ## TODO: Usage
 
